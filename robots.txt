@@ -1,0 +1,3 @@
+# SiteTree Start
+Sitemap: http://yourpostalcode.com/sitemap
+# SiteTree End

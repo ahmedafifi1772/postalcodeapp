@@ -1,0 +1,161 @@
+
+
+
+ .office{
+ 		width: 100%; position: relative;
+
+background-attachment: scroll;
+}
+
+.office #menu{position: relative; overflow: hidden;}
+.office .hbody{width: 100%; position: relative;  overflow: hidden;
+	margin: 30px auto 50px auto;
+	 }
+
+.info{
+	position: relative; margin: 30px auto 0px auto;
+	padding-bottom:20px; 
+
+	width: 100%; 
+}
+
+.info .list-3 li{vertical-align: bottom; position: relative;}
+.code{ display: block;
+	  width:120px; margin: 0 auto; position: relative;
+	 color: #fff;
+
+}
+.code span{width: 100%; display: block; 	text-align: right;
+ }
+.postal{  padding-right:60px;
+background: url(../img/icons/postal.png) right bottom no-repeat;
+ }
+ .postal span:first-child{line-height: 45px; font-size: 2.5em;}
+ .postal span:nth-child(2){line-height: 30px; font-size: 0.8em;}
+.financial, .telephone{padding-right: 50px;}
+.financial span:first-child, .telephone span:first-child{font-size: 1.5em; line-height: 30px;}
+.financial span:nth-child(2), .telephone span:nth-child(2){line-height: 30px; font-size: 0.8em;}
+.financial{ background: url(../img/icons/financial.png) right bottom no-repeat;}
+
+.telephone{ background: url(../img/icons/telephone.png) right bottom no-repeat;}
+
+
+
+/*Services*/
+.services.cover{height: auto; min-height: auto;}
+.services h1{ width: 100%; text-align: center; margin: 10px auto;}
+.sbody{ width:100%; max-width: 600px; min-width: 250px; overflow: hidden;}
+
+
+.services .item{
+ padding:10px 5px 10px 0px; width: 90%;  
+  border-radius: 30px;  margin: 8px 0; text-align: right;
+  color: #fff;
+   }
+.item.t, .note .t{border: 5px solid #169a16; float: right;
+background: rgba(22,154,22,0.4) url(../img/icons/right.png) 5px no-repeat;
+background-size: 50px;
+}
+.item.f, .note .f{border: 5px solid #ce1126; float: left;
+background: rgba(206,17,38,0.4) url(../img/icons/wrong.png) 5px no-repeat;
+background-size: 35px;
+}
+.note{width: 100%; max-width: 700px; overflow:hidden; margin: 20px auto; overflow: hidden; position: relative;}
+.note span{color:#fff; padding:3px 5px 3px 0px; padding-left: 50px;  border-radius: 20px;
+ width: 100px;
+}
+.note .f{ background-size: 25px; border: 2px solid #ce1126;}
+ .note .t{ background-size: 33px; border: 2px solid #169a16;}
+
+
+/*workhours*/
+.whours{width: 100%; position: relative; }
+.whours h1{width: 100%; text-align: center; margin: 10px auto;}
+.whours table{ position: relative; margin: 20px auto; text-align: center;
+border:1px solid #000; 
+}
+
+.whours table td{ padding: 0px 10px ;}
+.whours table tr td:first-child{ font-weight: bold;}
+
+/*Options*/
+.options{width: 100%; position: relative; text-align:
+ center; color: #fff;
+padding: 50px 0px;
+}
+.options .save,.options .send,.options .print{cursor: pointer;}
+
+/*Preview*/
+.preview{width: 100%; position: relative; overflow: hidden;}
+.preview h1{width: 100%; text-align: center;}
+.vote-box{width: 100%; max-width:500px; min-height: 150px;   }
+.block{overflow: hidden;}
+.vote{width:150px; height: 150px; cursor: pointer;}
+.vote.right,.vote.wrong{display: inline-block;}
+.vote.right{float: right;  background: url(../img/icons/right-cycle.png) center no-repeat;}
+.vote.wrong{float: left;   background: url(../img/icons/wrong-cycle.png) center no-repeat;}
+
+/*More*/
+.more{width: 100%; background: #3498db; position: relative; color: #fff; overflow: hidden;
+text-align:center ; padding: 0px 0px 20px 0;
+}
+.more p{margin: 10px auto;}
+.more h1{ width: 100%; color: #fff; }
+
+.more a{color: #fff; border:2px solid #fff;  border-radius: 5px; padding:5px  15px; margin: 5px auto;}
+
+/*Places*/
+.places{width:98%; position: relative; max-width: 1200px; margin: 0 auto;}
+.places p{text-align: right; padding-right: 70px;  
+	 height: 100px; margin: 10px auto;
+	 background: url(../img/icons/pin-on.png) right no-repeat;}
+.places p b{width: 100%; display: block; font-size: 1.4em;}
+
+.places table{width: 100%}
+.places table td{ 
+	width: 45%; 
+	    padding-right: 25px;
+        background: url(../img/icons/nearby-icon.png) right 3px no-repeat;
+
+}
+
+.places table td a{ text-decoration: none; color: #000;}
+
+
+
+/*Responsive handler*/
+
+
+/*Mobile*/
+@media  only screen and (max-width: 480px){
+.places table td{ 
+	width: 45%; 
+	    padding-right: 25px;
+        background: url(../img/icons/nearby-icon.png) right 0px no-repeat;
+        background-size: 15px;
+        padding-bottom:5px; 
+}
+.vote{width:120px; height: 120px;}
+
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px){
+.office .list-3 li{width: 32%; display: inline-block;}
+
+}
+
+/*In-between 0<[]<650 */
+@media only screen and (max-width: 650px){
+.code{width: 250px; height: 60px; line-height: 90px;}	
+.code span{width:auto; display: inline-block; }
+.office .list-3 li{width: 100%; margin: 10px auto;}
+}
+
+
+/*mini-desktop*/
+@media only screen and (min-width: 801px) and (max-width: 1200px){
+
+}
+
+

@@ -1,0 +1,14 @@
+[28-Oct-2015 21:44:21 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 21:53:50 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 21:56:28 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 21:56:51 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 21:57:14 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 21:59:27 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 22:00:04 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 22:39:11 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[28-Oct-2015 22:43:07 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/creativa2015cp/public_html/yourpostalcode.com/application/controllers/seo.php on line 115
+[14-Jan-2016 00:39:54 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/creativa2015cp/public_html/application/errors/error_404.php on line 1
+[14-Jan-2016 01:23:17 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/creativa2015cp/public_html/application/views/mainview.php on line 15
+[14-Jan-2016 01:23:46 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/creativa2015cp/public_html/application/views/mainview.php on line 15
+[01-Feb-2016 00:36:31 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/creativa2015cp/public_html/PHPMailer_5.2.0/class.phpmailer.php on line 1443
+[01-Feb-2016 00:36:41 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/creativa2015cp/public_html/PHPMailer_5.2.0/class.phpmailer.php on line 1443

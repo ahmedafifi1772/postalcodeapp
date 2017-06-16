@@ -1,0 +1,24 @@
+	.header{max-height: 400px; min-height: auto;}
+	.places{width: 100%; max-width: 1200px; position: relative; margin: 0 auto;}
+	.places p{text-align: right; padding-right: 70px;  
+	 height: 100px; margin: 10px auto; 
+	 background: url(../img/icons/pin-place.png) right no-repeat;}
+    .places p b{width: 100%; display: block; font-size: 1.5em;}
+
+
+.places table {margin: 50px;}
+.places table td{ font-size: 1.2em;
+
+}
+.places table td a{color: #000;}
+
+
+
+
+
+
+
+
+
+
+

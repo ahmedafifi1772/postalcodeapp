@@ -1,0 +1,28 @@
+.contact{width: 100%;  position: relative; height: inherit; min-height: inherit;
+background:#3498db;  }
+
+
+.cbody{width: 100%; max-width:700px; min-width: 350px; margin: 0 auto; border: px solid #fff; }
+
+.cbody h1{text-align: center; letter-spacing: 2px; color:#fff;}
+
+ .cbody input[type="text"], .cbody textarea{margin: 5px 0; background: rgba(255,255,255,0);
+ border: 5px solid rgba(255,255,255,0.7); border-radius: 10px;
+width: 90%; font-size: 1em; color: #fff; padding:0px 10px;
+  }
+ .cbody input[type="text"]:focus, .cbody textarea:focus{ border: 5px solid #fff; outline: none;
+  box-shadow: 0px 0px 0px 0px #000;}
+
+.cbody input[type="text"]{ line-height: 40px;}
+.cbody input[type="submit"]{width: 100px; background: #fff; padding: 10px 0; 
+	text-align: center; border-radius: 5px; border: 1px solid #fff;}
+.cbody textarea{height:200px; padding:10px 10px; font-size: 1em;}
+
+
+#result{width: 100%; font-weight: bold; padding: 5px 0px; }
+
+
+
+
+
+.success{color: green;}  .error{color: red;}

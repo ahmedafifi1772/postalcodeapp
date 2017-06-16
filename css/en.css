@@ -1,0 +1,73 @@
+
+*{direction: ltr;}
+body{text-align: left;}
+.hbody h1{font-size: 1.6em;}
+.report-box div {text-align: left;}
+.radio{float: left; right: auto; left: 1em; margin-top:5px;}
+
+/*.head-search{float: right;}*/
+#search_box{text-align: center;}
+
+.footer .list-normal li {text-align: left;}
+.footer-flag, .footer-search{text-align: left; padding-left: 60px; color: #fff;}
+.footer-flag{background: url(../img/icons/flag.png) center left no-repeat;}
+.footer-search{background: url(../img/icons/mini-search.png) center left no-repeat;}
+.footer .list-normal li span {
+    float: right;
+}
+#social-box {text-align: left;}
+
+/*office*/
+.code{width: 130px;}
+.financial, .telephone{padding-left: 50px; padding-right: 0;}
+.telephone {
+    background: url(../img/icons/telephone.png) left bottom no-repeat;}
+.financial {
+    background: url(../img/icons/financial.png) left bottom no-repeat;
+}
+.postal {
+    padding-left: 60px; padding-right: 0;
+    background: url(../img/icons/postal.png) left bottom no-repeat;
+}
+.code span{text-align: left;}
+.services .item {text-align:left;    padding: 10px 10px 10px 5px; }
+.item.f, .note .f{background: rgba(206,17,38,0.4) url(../img/icons/wrong.png) center right no-repeat;
+ 	background-size: 35px;}
+ .item.t, .note .t{background: rgba(22,154,22,0.4) url(../img/icons/right.png) center right no-repeat;
+ 	background-size: 35px;}
+ .note span{text-align: left; width: 180px;  padding-left: 3px;}
+/*In-between 0<[]<650 */
+@media only screen and (max-width: 650px){
+.code{width: 250px; height: 60px; line-height: 90px;}   
+.code span{width:auto; display: inline-block; }
+}
+ .places p {
+    text-align: left;
+    padding-left: 70px; padding-right: 0;
+    background: url(../img/icons/pin-on.png) left no-repeat;
+}
+
+
+
+/*Places */
+.places h1 {
+    text-align: left;
+    padding-left: 70px; padding-right: 0;
+    background: url(../img/icons/pin-place.png) left no-repeat;
+}
+.places table td {
+    padding-left: 30px; padding-right:0;
+    background: url(../img/icons/post-box.png) left 12px no-repeat;
+    background-size: 20px
+}
+
+.office-flag:hover {
+    background: rgba(0, 0, 0, 0.1) url(../img/icons/post-box.png) left 12px no-repeat;
+    background-size: 20px
+}
+/* Office page override */
+#place-sec table td {
+    width: 45%;
+    padding-left: 25px; padding-right: 0;
+    background: url(../img/icons/nearby-icon.png) left 3px no-repeat;
+}
